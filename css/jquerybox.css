@@ -1,0 +1,4 @@
+.ui-menu .ui-menu-item-wrapper:hover,
+.ui-menu .ui-menu-item-wrapper.ui-state-active {
+    border:#202945 1px solid;
+}

@@ -1,0 +1,194 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#yourClubLandingPage {
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.menu {
+    padding: 8px;
+}
+
+/*navbar*/
+.nav .navbar {
+    margin-left: 0;
+}
+
+/* side navigation bar*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #202945;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.navbar-nav li {
+    padding-left: 20px;
+    justify-content: space-around;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: x-large;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: medium;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: medium;
+    }
+}
+
+body {
+    text-align: center;
+}
+
+.left {
+    position: relative;
+    text-align: left;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0;
+}
+
+/* need to fix this */
+.right {
+    text-align: left;
+    position: relative;
+    float: right;
+    width: 25%;
+    height: 100%;
+    border: 0;
+    padding-top: 7%;
+    padding-bottom: 16%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* for list */
+ul {
+    margin: 0;
+}
+
+ul.dot {
+    list-style-type: none;
+}
+
+ul.dot>li {
+    text-indent: -25px;
+}
+
+ul.dot>li:before {
+    content: "• ";
+    text-indent: -5px;
+}
+
+.clubDescription {
+    position: relative;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.button {
+    width: 210px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0px 0px 1px white;
+    background-color: #ffc107;
+    border-radius: 30px;
+}
+
+.edit-btn {
+    display: inline-block;
+    width: 8%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+    background-color: #ffc107;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 0px 0px 1px white;
+    outline: none;
+}
+
+.edit-btn:hover {
+    background-color: #ff9307;
+}
+
+
+.edit-btn:active {
+    background-color: #ff9307;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+.activities {
+    position: relative;
+    text-align: left;
+    padding-top: 5%;
+}
+
+#footer {
+    background: #202945;
+    margin-top: 3rem;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer .credits {
+    font-size: 80%;
+    color: #ccc;
+    margin-bottom: 2%;
+}
+
+.footer-text {
+    font-size: 80%;
+    color: #ccc;
+}
+
+.fab {
+    margin: 0 0.5%;
+}
+
+/* align this to center: navbar jClub */
+.mx-auto order-0 {
+    text-align: center;
+}

@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+body {
+  background-color: #f8f9fa;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.form {
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 380px;
+  height: 450px;
+  background: #202945;
+  padding: 5px;
+  transition: .5s;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.button {
+  width: 210px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0px 0px 1px white;
+  background-color: #ffc107;
+  border-radius: 30px;
+}
+
+
+#particle-div {
+  /* z-index: 0; */
+  background: fixed;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
+.btn {
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+  outline: none;
+  position: relative;
+  /* box-shadow: 0 0px 2px 1px black; delete later */
+}
+
+#btn-color {
+  top:0;
+  left:0;
+  position: absolute;
+  width: 55%;
+  height : 100%;
+  background-color: #202945;
+  /*background: linear-gradient(to right, #ff512f, #dd2476);*/
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.socials {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.fab {
+  position: relative;
+  margin: 0px 7px;
+}
+
+a{
+  color: white;
+}
+
+.fb:hover {
+  color:blue;
+}
+
+.in:hover {
+  color: #ff512f;
+}
+
+.tw:hover {
+  color: #1DA1F2;
+}
+
+.input-group {
+  margin-top: 30px;
+  width: 280px;
+  position: absolute;
+  transition: .5s;
+  text-align: center;
+}
+
+.input-field {
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border: 0;
+  border-bottom: 1px solid;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn {
+  display: inline-block;
+  width: 40%;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  background-color: #ffc107;
+  color: black;
+  border-radius: 30px;
+  box-shadow: 0 0px 0px 1px white;
+}
+
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+
+span {
+  font-size: 12px;
+}
+
+#login {
+  left:50px;
+}
+#register {
+  left: 450px;
+}
+
+label {
+  font-size: 12px;
+  margin:0;
+}
+
+/*placeholder text*/
+::placeholder {
+  color: white;
+}
+
+.error-msg {
+  color: white;
+  font-size: 12px;
+}

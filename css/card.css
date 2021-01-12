@@ -1,0 +1,14 @@
+#cards {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.card {
+    margin: 100px 10px 0 0;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
